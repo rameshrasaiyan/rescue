@@ -1,0 +1,8 @@
+name = rescue01_delta
+core = 7.x
+package = Features
+dependencies[] = ctools
+dependencies[] = delta
+features[ctools][] = delta:delta:3
+features[delta][] = disable_sidebars
+features[features_api][] = api:1
