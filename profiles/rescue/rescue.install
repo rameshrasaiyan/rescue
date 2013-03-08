@@ -1,14 +1,14 @@
 <?php
   !function_exists('profiler_v2') ? require_once('libraries/profiler/profiler.inc') : FALSE;
-  profiler_v2('rescue01');
+  profiler_v2('rescue');
 
 /**
  * Implements hook_install().
  *
  * Perform actions to set up the site for this profile.
  */
-function rescue01_install() {
-  // Enable some rescue01 blocks.
+function rescue_install() {
+  // Enable some rescue blocks.
   $default_theme = 'rescue01';
   $admin_theme = 'seven';
   // disable all themes

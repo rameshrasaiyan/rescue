@@ -6,14 +6,14 @@
  */
 function system_form_install_configure_form_alter(&$form, $form_state) {
   // Pre-populate the site name with the server name.
-  $form['site_information']['site_name']['#default_value'] = 'rescue01';
+  $form['site_information']['site_name']['#default_value'] = 'rescue';
 }
 /**
  * Implements hook_form_alter().
  */
 function system_form_install_select_profile_form_alter(&$form, $form_state) {
-  // select rescue01 install profile by default
+  // select rescue install profile by default
   foreach ($form['profile'] as $key => $element) {
-    $form['profile'][$key]['#value'] = 'rescue01';
+    $form['profile'][$key]['#value'] = 'rescue';
   }
 }
