@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the rescue01_content_types feature.
+ */
+
+include_once 'rescue01_content_types.features.inc';
