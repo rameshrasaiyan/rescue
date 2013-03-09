@@ -1,6 +1,7 @@
 name = rescue01_content_types
 core = 7.x
 package = Features
+php = 5.2.4
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = image
@@ -17,6 +18,7 @@ features[field][] = node-bios-field_bio_image
 features[field][] = node-bios-field_designation
 features[field][] = node-dynamic_lead_slide-field_dl_image
 features[field][] = node-page-body
+features[image][] = flexslider_980x360
 features[node][] = article
 features[node][] = bios
 features[node][] = dynamic_lead_slide
