@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the rescue01_views feature.
+ */
+
+include_once 'rescue01_views.features.inc';
