@@ -1,6 +1,7 @@
 name = rescue01_delta
 core = 7.x
 package = Features
+php = 5.2.4
 dependencies[] = ctools
 dependencies[] = delta
 features[ctools][] = delta:delta:3

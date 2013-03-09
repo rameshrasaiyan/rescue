@@ -2,3 +2,29 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../sass/_header.scss */
+.section-header .site-name a {
+  display: block;
+  text-indent: -9999px;
+  width: 200px;
+  height: 68px;
+  background: url("../images/rtlogo2.jpg") 0 0 no-repeat;
+}
+
+/* END section-header */
+/* line 3, ../sass/_content.scss */
+.section-content h1#page-title {
+  display: none;
+}
+
+/* END section-content */
+/* line 3, ../sass/_dynamiclead.scss */
+.block-dynamic-lead-new-block h2.block-title {
+  display: none;
+}
+/* line 7, ../sass/_dynamiclead.scss */
+.block-dynamic-lead-new-block .flexslider {
+  margin: 0 0 0 0;
+}
+
+/* END block-dynamic-lead-new-block */

@@ -17,13 +17,28 @@ function rescue01_context_context_default_contexts() {
   $context->description = '';
   $context->tag = '';
   $context->conditions = array(
-    'views' => array(
+    'path' => array(
       'values' => array(
-        'our_team' => 'our_team',
+        'content/our-team' => 'content/our-team',
+        'content/our-team/*' => 'content/our-team/*',
       ),
     ),
   );
-  $context->reactions = array();
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'system-main' => array(
+          'module' => 'system',
+          'delta' => 'main',
+          'region' => 'content',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+    'delta' => array(
+      'delta_template' => 'disable_left_sidebar',
+    ),
+  );
   $context->condition_mode = 0;
   $export['rescue01_bio'] = $context;
 
@@ -36,7 +51,8 @@ function rescue01_context_context_default_contexts() {
   $context->conditions = array(
     'path' => array(
       'values' => array(
-        '<front>' => '<front>',
+        'content/home' => 'content/home',
+        'content/home/*' => 'content/home/*',
       ),
     ),
   );
