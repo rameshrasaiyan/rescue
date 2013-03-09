@@ -24,6 +24,16 @@ function rescue01_context_context_default_contexts() {
     ),
   );
   $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'views-dynamic_lead_new-block' => array(
+          'module' => 'views',
+          'delta' => 'dynamic_lead_new-block',
+          'region' => 'content',
+          'weight' => '-10',
+        ),
+      ),
+    ),
     'delta' => array(
       'delta_template' => 'disable_sidebars',
     ),
