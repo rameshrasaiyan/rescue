@@ -1,12 +1,13 @@
 name = rescue01_menu
 core = 7.x
 package = Features
+php = 5.2.4
 dependencies[] = features
 dependencies[] = menu
 features[features_api][] = api:1
 features[menu_custom][] = main-menu
-features[menu_links][] = main-menu:<front>
 features[menu_links][] = main-menu:content/our-team
 features[menu_links][] = main-menu:node/1
+features[menu_links][] = main-menu:node/16
 features[menu_links][] = main-menu:node/2
 features[menu_links][] = main-menu:node/3

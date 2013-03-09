@@ -7,5 +7,6 @@ dependencies[] = ctools
 dependencies[] = views
 features[context][] = rescue01_bio
 features[context][] = rescue01_home
+features[context][] = rescue01_pages
 features[ctools][] = context:context:3
 features[features_api][] = api:1
