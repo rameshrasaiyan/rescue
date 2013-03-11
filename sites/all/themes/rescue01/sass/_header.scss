@@ -1,6 +1,13 @@
 .section-header{
 
+	.region-branding-inner,
+	.region-menu-inner{
+		background: $white;
+		}
+
 	.site-name{
+
+		margin: 0;
 
 		a{
 			display: block;

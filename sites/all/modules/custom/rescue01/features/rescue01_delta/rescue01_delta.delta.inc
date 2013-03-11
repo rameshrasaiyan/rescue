@@ -21,6 +21,8 @@ function rescue01_delta_delta_default_templates() {
   $delta->parent = '';
   $delta->settings = array(
     'theme_rescue01_settings' => array(
+      'alpha_toggle_messages' => 0,
+      'alpha_toggle_breadcrumb' => 0,
       'alpha_region_preface_first_zone' => NULL,
       'alpha_region_preface_first_equal_height_element' => FALSE,
       'alpha_region_user_first_zone' => NULL,
@@ -39,7 +41,6 @@ function rescue01_delta_delta_default_templates() {
       'alpha_region_user_second_equal_height_element' => FALSE,
       'alpha_region_header_second_zone' => NULL,
       'alpha_region_header_second_equal_height_element' => FALSE,
-      'alpha_region_sidebar_second_equal_height_element' => FALSE,
       'alpha_region_preface_third_zone' => NULL,
       'alpha_region_preface_third_equal_height_element' => FALSE,
       'alpha_region_postscript_third_zone' => NULL,

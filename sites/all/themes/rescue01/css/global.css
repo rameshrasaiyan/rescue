@@ -2,7 +2,21 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../sass/_header.scss */
+/* line 1, ../sass/_general.scss */
+body {
+  background: url("../images/debut_light.png") 0 0;
+}
+
+/* line 4, ../sass/_header.scss */
+.section-header .region-branding-inner,
+.section-header .region-menu-inner {
+  background: white;
+}
+/* line 8, ../sass/_header.scss */
+.section-header .site-name {
+  margin: 0;
+}
+/* line 12, ../sass/_header.scss */
 .section-header .site-name a {
   display: block;
   text-indent: -9999px;
@@ -15,6 +29,10 @@
 /* line 3, ../sass/_content.scss */
 .section-content h1#page-title {
   display: none;
+}
+/* line 7, ../sass/_content.scss */
+.section-content .region-content-inner {
+  background: white;
 }
 
 /* END section-content */
