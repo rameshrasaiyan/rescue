@@ -1,10 +1,32 @@
 .section-content{
+	margin: 25px 0 0 0;
 
 	h1#page-title{
 		display: none;
 		}
 		
 	.region-content-inner{
-		background: $white;
+		
 		}
 	} /* END section-content */
+
+
+.zone-content{
+	background: $white;	
+	}
+
+
+.front{
+	
+	.section-content{
+	background: #f5f5f5 url( '../images/drop-shadow.png' ) center top no-repeat;
+	margin: 0;
+	padding: 60px 0 20px 0;
+	border-bottom: 5px solid #e1e1e1;
+	
+	.zone-content{
+		background: none;
+		}
+	}
+}
+

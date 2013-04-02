@@ -1,8 +1,14 @@
 .section-header{
+	position: relative;
+	margin: 0 0 0 0;
+	background: url( '../images/simple_dashed.png' ) 0 0 repeat;
+	border-bottom: 5px solid #e1e1e1;
 
-	.region-branding-inner,
-	.region-menu-inner{
-		background: $white;
+	.zone-branding{
+		
+		}
+	.region-branding-inner{
+		padding: 10px 0 10px 10px;
 		}
 
 	.site-name{
