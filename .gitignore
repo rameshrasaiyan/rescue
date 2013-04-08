@@ -6,5 +6,7 @@ sites/*/files
 sites/*/private
 
 # Ignore sass cache and DS_Store files.
-.sass-cache/
+.sass-cache
 .DS_Store
+sites/*/.sass-cache/
+sites/all/themes/rescue01/.sass-cache/2dbdc7a89e9c4ecff59e263d5b11743be4cafab0/

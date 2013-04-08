@@ -1,14 +1,64 @@
 .section-footer{
 
-	background: #f5f5f5;
+	
+	font-family: 'Merriweather Sans', sans-serif;
+	background: #464646 url( '../images/dots-dark.png' ) 0 0 repeat;
 	margin: 25px 0 0 0;
-	border-top: 5px solid #e1e1e1;
+	font-size: 1em;
+	
+	h2.block-title{
+		font-family: 'Merriweather Sans', sans-serif;
+		color: $white;
+		}
+	
+
+	.zone-footer-wrapper{
+		border-top: 5px solid #e1e1e1;	
+		padding: 10px 0 0 0;
+		
+		h2.block-title{
+			padding: 0 0 10px 0;			
+		}
+	}
 
 	.zone-footer{
 	/* background: url( '../images/black_denim.png' ) 0 0; */
+	
+		a{
+			color: $footer_text;
+			text-decoration: none;
+			}
 
 	.region-footer-first{
-		height: 100px;
+		.views-row{
+			border-bottom: 1px dotted $footer_text;
+			margin: 0 0 15px 0;
 		}
+		.view-whats-going-on{
+			font-size: .750em;
+			}
+		.views-field-body{
+			color: $footer_text;
+			font-weight: normal;
+			}
+		}
+	
+	.region-footer-second{
+		.block-menu-follow-us-on{
+			font-size: .750em;
+			}
+		.views-field-body{
+			color: $footer_text;
+			}
+		}
+	.region-footer-third{
+		.block-contactinfo-hcard{
+			font-size: .750em;
+			}
+		.vcard{
+			color: $footer_text;
+			}
+		}
+
 	}
 }

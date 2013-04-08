@@ -1,1 +1,38 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+/* sticky footer */
+/* line 4, ../sass/rescue01-alpha-default.scss */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* line 5, ../sass/rescue01-alpha-default.scss */
+#page {
+  display: table;
+  width: 100%;
+}
+
+/* line 6, ../sass/rescue01-alpha-default.scss */
+html > body #page {
+  height: 100%;
+}
+
+/* line 7, ../sass/rescue01-alpha-default.scss */
+*:first-child + html #page {
+  height: auto;
+}
+
+/* line 8, ../sass/rescue01-alpha-default.scss */
+.section {
+  display: table-row;
+}
+
+/* line 9, ../sass/rescue01-alpha-default.scss */
+html > body .section-home-content {
+  height: 100%;
+}
+
+/* line 10, ../sass/rescue01-alpha-default.scss */
+*:first-child + html body .section-home-content {
+  height: auto;
+}

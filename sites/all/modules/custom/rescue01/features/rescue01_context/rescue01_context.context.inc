@@ -65,6 +65,24 @@ function rescue01_context_context_default_contexts() {
           'region' => 'content',
           'weight' => '-10',
         ),
+        'views-featured_articles-block' => array(
+          'module' => 'views',
+          'delta' => 'featured_articles-block',
+          'region' => 'preface_first',
+          'weight' => '-10',
+        ),
+        'views-home_content-block' => array(
+          'module' => 'views',
+          'delta' => 'home_content-block',
+          'region' => 'postscript_first',
+          'weight' => '-10',
+        ),
+        'views-quick_links-block' => array(
+          'module' => 'views',
+          'delta' => 'quick_links-block',
+          'region' => 'postscript_second',
+          'weight' => '-10',
+        ),
       ),
     ),
     'delta' => array(

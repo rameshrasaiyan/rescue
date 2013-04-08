@@ -161,6 +161,8 @@ class alpha_theme_container {
       $this->sections = array(
         'header' => t('Header'),
         'content' => t('Content'),
+        'home_content' => t('Home Content'),
+        'featured_content' => t('Featured Content'),
         'footer' => t('Footer'),
       );
     }

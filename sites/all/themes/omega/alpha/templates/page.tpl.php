@@ -13,6 +13,14 @@
     <?php print render($page['content']); ?>
   <?php endif; ?>  
   
+  <?php if (isset($page['home_content'])) : ?>
+    <?php print render($page['home_content']); ?>
+  <?php endif; ?>
+  
+  <?php if (isset($page['featured_content'])) : ?>
+    <?php print render($page['featured_content']); ?>
+  <?php endif; ?>  
+  
   <?php if (isset($page['footer'])) : ?>
     <?php print render($page['footer']); ?>
   <?php endif; ?>
