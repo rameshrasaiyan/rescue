@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 13, ../sass/_base.scss */
+/* line 14, ../sass/_base.scss */
 .title_font, .section-home-content .region-postscript-second h2.block-title, .section-featured-content .block-featured-articles-block h2.block-title {
   font-family: "Merriweather Sans", sans-serif;
   color: #d95100;
@@ -22,7 +22,7 @@ body {
 .section-header {
   position: relative;
   margin: 0 0 0 0;
-  background: url("../images/simple_dashed.png") 0 0 repeat;
+  background: url("../images/banner-bg.png") 0 0 repeat-x;
   border-bottom: 5px solid #e1e1e1;
 }
 /* line 10, ../sass/_header.scss */
@@ -37,9 +37,9 @@ body {
 .section-header .site-name a {
   display: block;
   text-indent: -9999px;
-  width: 200px;
-  height: 69px;
-  background: url("../images/rtlogo.png") 0 0 no-repeat;
+  width: 234px;
+  height: 80px;
+  background: url("../images/rescue-logo.png") 0 0 no-repeat;
 }
 
 /* END section-header */
@@ -58,7 +58,7 @@ body {
 /* line 15, ../sass/_footer.scss */
 .section-footer .zone-footer-wrapper {
   border-top: 5px solid #e1e1e1;
-  padding: 10px 0 0 0;
+  padding: 10px 0 10px 0;
 }
 /* line 19, ../sass/_footer.scss */
 .section-footer .zone-footer-wrapper h2.block-title {
@@ -75,143 +75,186 @@ body {
 }
 /* line 33, ../sass/_footer.scss */
 .section-footer .zone-footer .region-footer-first .views-row {
-  border-bottom: 1px dotted #999999;
-  margin: 0 0 15px 0;
+  margin: 0 0 0 0;
 }
-/* line 37, ../sass/_footer.scss */
+/* line 36, ../sass/_footer.scss */
 .section-footer .zone-footer .region-footer-first .view-whats-going-on {
   font-size: .750em;
 }
-/* line 40, ../sass/_footer.scss */
+/* line 39, ../sass/_footer.scss */
 .section-footer .zone-footer .region-footer-first .views-field-body {
   color: #999999;
   font-weight: normal;
 }
-/* line 47, ../sass/_footer.scss */
+/* line 46, ../sass/_footer.scss */
 .section-footer .zone-footer .region-footer-second .block-menu-follow-us-on {
   font-size: .750em;
 }
-/* line 50, ../sass/_footer.scss */
+/* line 49, ../sass/_footer.scss */
 .section-footer .zone-footer .region-footer-second .views-field-body {
   color: #999999;
 }
-/* line 55, ../sass/_footer.scss */
+/* line 54, ../sass/_footer.scss */
 .section-footer .zone-footer .region-footer-third .block-contactinfo-hcard {
   font-size: .750em;
 }
-/* line 58, ../sass/_footer.scss */
+/* line 57, ../sass/_footer.scss */
 .section-footer .zone-footer .region-footer-third .vcard {
   color: #999999;
 }
 
-/* line 1, ../sass/_content.scss */
-.section-content {
-  margin: 25px 0 0 0;
-}
-/* line 4, ../sass/_content.scss */
-.section-content h1#page-title {
+/* line 2, ../sass/_content.scss */
+.front h1#page-title {
   display: none;
 }
 
-/* END section-content */
-/* line 14, ../sass/_content.scss */
-.zone-content {
-  background: white;
+/* line 7, ../sass/_content.scss */
+.section-content {
+  margin: 25px 0 0 0;
+}
+/* line 12, ../sass/_content.scss */
+.section-content .zone-content .breadcrumb {
+  display: none;
+}
+/* line 18, ../sass/_content.scss */
+.section-content .zone-content article footer.submitted {
+  display: none;
+}
+/* line 25, ../sass/_content.scss */
+.section-content .zone-content .region-content-inner h1.title {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 2em;
+  font-weight: normal;
+  color: #555555;
+  margin-top: 20px;
+}
+/* line 34, ../sass/_content.scss */
+.section-content .zone-content .region-content-inner article .field-name-body {
+  min-height: 400px;
+}
+/* line 41, ../sass/_content.scss */
+.section-content .zone-content .region-content-inner .block-system-main .field-name-body {
+  min-height: 400px;
+}
+/* line 49, ../sass/_content.scss */
+.section-content .zone-content .region-content-inner .block-system-main .view-our-team .team ul li {
+  margin: 0 0 0.25em 0;
+  border-bottom: 1px dashed #cccccc;
+}
+/* line 53, ../sass/_content.scss */
+.section-content .zone-content .region-content-inner .block-system-main .view-our-team .team ul li .views-field-title {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.5em;
+  margin: 0;
+  color: #D95100;
+  font-weight: normal;
+}
+/* line 60, ../sass/_content.scss */
+.section-content .zone-content .region-content-inner .block-system-main .view-our-team .team ul li .views-field-field-designation {
+  margin: 0 0 1em 0;
 }
 
-/* line 21, ../sass/_content.scss */
+/* END section-content */
+/* line 82, ../sass/_content.scss */
 .front .section-content {
   background: url("../images/dl_bg.jpg") left top repeat-x;
   margin: 0;
   padding: 0 0 20px 0;
 }
-/* line 26, ../sass/_content.scss */
+/* line 87, ../sass/_content.scss */
 .front .section-content .zone-content {
   background: url("../images/drop-shadow.png") center top no-repeat;
   padding: 45px 0 0 0;
 }
-/* line 30, ../sass/_content.scss */
+/* line 91, ../sass/_content.scss */
 .front .section-content .zone-content .flex-nav-container {
   margin: 0 0 80px 0;
 }
-/* line 33, ../sass/_content.scss */
+/* line 94, ../sass/_content.scss */
 .front .section-content .zone-content .flex-nav-container .flexslider {
   border: 0;
   box-shadow: none;
 }
-/* line 39, ../sass/_content.scss */
+/* line 100, ../sass/_content.scss */
 .front .section-content .zone-content .flex-nav-container .flex-control-nav {
-  display: none;
+  display: block;
 }
-/* line 44, ../sass/_content.scss */
+/* line 105, ../sass/_content.scss */
 .front .section-content .zone-content .flex-nav-container .flex-direction-nav .flex-prev,
 .front .section-content .zone-content .flex-nav-container .flex-direction-nav .flex-next {
   opacity: 1;
 }
 
-/* line 55, ../sass/_content.scss */
+/* line 116, ../sass/_content.scss */
 .section-home-content .region-postscript-first {
   font-family: "Merriweather Sans", sans-serif;
   font-size: .900em;
 }
-/* line 59, ../sass/_content.scss */
+/* line 120, ../sass/_content.scss */
 .section-home-content .region-postscript-first .views-field-title {
   color: #d95100;
   font-size: 1.7em;
   border-bottom: 2px solid #d6d6d6;
   margin: 0 0 15px 0;
 }
-/* line 65, ../sass/_content.scss */
+/* line 126, ../sass/_content.scss */
 .section-home-content .region-postscript-first h2.block-title {
   display: none;
 }
-/* line 70, ../sass/_content.scss */
+/* line 131, ../sass/_content.scss */
 .section-home-content .region-postscript-second {
   font-size: .900em;
 }
-/* line 73, ../sass/_content.scss */
+/* line 134, ../sass/_content.scss */
 .section-home-content .region-postscript-second h2.block-title {
   border-bottom: 2px solid #d6d6d6;
   margin: 0 0 15px 0;
 }
 
-/* line 85, ../sass/_content.scss */
+/* line 146, ../sass/_content.scss */
 .section-featured-content .block-featured-articles-block {
   margin: 20px 0 0 0;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 88, ../sass/_content.scss */
+/* line 149, ../sass/_content.scss */
 .section-featured-content .block-featured-articles-block h2.block-title {
   border-bottom: 2px solid #d6d6d6;
 }
-/* line 92, ../sass/_content.scss */
+/* line 153, ../sass/_content.scss */
 .section-featured-content .block-featured-articles-block .views-field-title {
   font-size: 1.2em;
   color: #555555;
   padding: 0 0 5px 0;
 }
-/* line 98, ../sass/_content.scss */
+/* line 159, ../sass/_content.scss */
 .section-featured-content .block-featured-articles-block .view-featured-articles .views-row {
   float: left;
   width: 280px;
-  padding: 0 20px 0 0;
-  margin: 15px 0 0 0;
+  padding: 0 30px 0 0;
+  margin: 15px 0 25px 0;
 }
-/* line 104, ../sass/_content.scss */
+/* line 165, ../sass/_content.scss */
 .section-featured-content .block-featured-articles-block .view-featured-articles .views-row .views-field-body {
   height: 70px;
   padding: 0 0 10px 0;
 }
-/* line 107, ../sass/_content.scss */
+/* line 168, ../sass/_content.scss */
 .section-featured-content .block-featured-articles-block .view-featured-articles .views-row .views-field-body p {
   font-size: .750em;
 }
-/* line 114, ../sass/_content.scss */
+/* line 175, ../sass/_content.scss */
 .section-featured-content .block-featured-articles-block .views-field-view-node a {
-  color: #1a90f4;
+  color: white;
   font-size: .700em;
   text-decoration: none;
+  background: #f45435;
+  padding: 3px 8px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
 }
 
 /* line 3, ../sass/_dynamiclead.scss */
@@ -225,27 +268,26 @@ body {
 
 /* END block-dynamic-lead-new-block */
 /* line 1, ../sass/_menu.scss */
-.zone-menu {
-  /* @include background-image(linear-gradient(#585858,#3d3d3d)); */
+.zone-menu-wrapper {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #b8b8b8));
+  background-image: -webkit-linear-gradient(#fafafa, #b8b8b8);
+  background-image: -moz-linear-gradient(#fafafa, #b8b8b8);
+  background-image: -o-linear-gradient(#fafafa, #b8b8b8);
+  background-image: linear-gradient(#fafafa, #b8b8b8);
 }
-/* line 7, ../sass/_menu.scss */
-.zone-menu .region-menu-inner .main-menu {
-  position: absolute;
-  left: 350px;
-  top: -50px;
+/* line 9, ../sass/_menu.scss */
+.zone-menu-wrapper .zone-menu .region-menu-inner .main-menu li {
+  background: url("../images/primary-menu-seperator.gif") right 2px no-repeat;
+  height: 22px;
+  margin-right: 0;
+  padding: 0.3em 0.8em;
 }
 /* line 14, ../sass/_menu.scss */
-.zone-menu .region-menu-inner .main-menu li a {
+.zone-menu-wrapper .zone-menu .region-menu-inner .main-menu li a {
   line-height: 2.5em;
   text-decoration: none;
-  color: #eeeeee;
+  color: black;
   font-weight: normal;
-  font-size: 0.875em;
-}
-
-/* line 26, ../sass/_menu.scss */
-.test {
-  -moz-border-radius-topleft: 5px;
-  -webkit-border-top-left-radius: 5px;
-  border-top-left-radius: 5px;
+  font-size: 0.775em;
+  text-transform: uppercase;
 }
