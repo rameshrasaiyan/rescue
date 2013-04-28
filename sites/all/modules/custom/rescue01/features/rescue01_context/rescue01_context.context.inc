@@ -77,12 +77,6 @@ function rescue01_context_context_default_contexts() {
           'region' => 'postscript_first',
           'weight' => '-10',
         ),
-        'views-quick_links-block' => array(
-          'module' => 'views',
-          'delta' => 'quick_links-block',
-          'region' => 'postscript_second',
-          'weight' => '-10',
-        ),
       ),
     ),
     'delta' => array(
@@ -107,6 +101,10 @@ function rescue01_context_context_default_contexts() {
         'content/our-services/*' => 'content/our-services/*',
         'content/strategic-alliances' => 'content/strategic-alliances',
         'content/strategic-alliances/*' => 'content/strategic-alliances/*',
+        'content/product-services' => 'content/product-services',
+        'content/product-services/*' => 'content/product-services/*',
+        'content/news' => 'content/news',
+        'content/news/*' => 'content/news/*',
       ),
     ),
   );
@@ -117,7 +115,7 @@ function rescue01_context_context_default_contexts() {
           'module' => 'system',
           'delta' => 'main',
           'region' => 'content',
-          'weight' => '-10',
+          'weight' => '-9',
         ),
       ),
     ),

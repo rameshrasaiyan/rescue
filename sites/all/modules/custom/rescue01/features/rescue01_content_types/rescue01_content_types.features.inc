@@ -75,7 +75,7 @@ function rescue01_content_types_node_info() {
       'help' => '',
     ),
     'featured_articles' => array(
-      'name' => t('Featured Articles'),
+      'name' => t('Products & Services'),
       'base' => 'node_content',
       'description' => '',
       'has_title' => '1',
@@ -83,7 +83,7 @@ function rescue01_content_types_node_info() {
       'help' => '',
     ),
     'home_content_left' => array(
-      'name' => t('Home Content Left'),
+      'name' => t('Home Content'),
       'base' => 'node_content',
       'description' => t('The content added here will appear in the home page just under the DL slider.'),
       'has_title' => '1',
