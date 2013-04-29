@@ -1,8 +1,16 @@
 .zone-menu-wrapper{
 		@include background-image(linear-gradient(#fafafa,#b8b8b8));
+		
 	.zone-menu{
 	
 		.region-menu-inner{
+		
+			.block-superfish{
+				
+				h2.block-title{
+					display: none;
+					}
+				}
 	
 			.main-menu{
 	

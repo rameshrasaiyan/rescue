@@ -1,0 +1,117 @@
+ul.menu li{
+	margin: 0;
+}
+.sf-sub-indicator{
+	display: none;
+}
+
+.sf-menu {
+  float: left;
+//  margin-bottom: 1em;
+  padding: 0;
+}
+.sf-menu.sf-navbar {
+  width: 100%;
+}
+.sf-menu ul {
+  padding-left: 0;
+}
+.sf-menu a {
+	line-height: 2.0em;
+	text-decoration: none;
+	color: $black;
+	font-weight: normal;
+	font-size: 0.775em;
+	text-transform: uppercase;
+}
+.sf-menu a,
+.sf-menu a:visited  {
+//  color: #13a;
+}
+.sf-menu a.sf-with-ul {
+  //padding-right: 2.25em;
+}
+.sf-menu.rtl a.sf-with-ul {
+ // padding-left: 2.25em;
+  //padding-right: 1em;
+}
+.sf-menu span.sf-description {
+  color: #13a;
+  display: block;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  margin: 5px 0 0 5px;
+  padding: 0;
+}
+.sf-menu li{
+//  background: #BDD2FF;
+  background: url( '../images/primary-menu-seperator.gif' ) right 2px no-repeat;
+  height: 22px;
+  margin-right: 0 !important;
+  padding: 0.3em 0.8em;
+}
+.sf-menu.sf-navbar {}
+.sf-menu li li {
+  background: #fafafa;
+  top: -0.5em;
+}
+.sf-menu li li li {
+//  background: #9AAEDB;
+}
+.sf-menu li:hover,
+.sf-menu li.sfHover{
+  @include background-image(linear-gradient(#b8b8b8, #fafafa));	
+}
+.sf-menu a:focus,
+.sf-menu a:hover,
+.sf-menu a:active {
+
+  outline: 0;
+
+}
+.sf-menu ul.sf-megamenu li.sf-megamenu-wrapper ol,
+.sf-menu ul.sf-megamenu li.sf-megamenu-wrapper ol li {
+  margin: 0;
+  padding: 0;
+}
+.sf-menu ul.sf-megamenu li.sf-megamenu-wrapper a.menuparent {
+  font-weight: bold;
+}
+.sf-menu ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+  display: inline;
+  float: left;
+  width: 12em;
+}
+.sf-menu.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+  float: right;
+}
+.sf-menu li.sf-parent-children-1 ul.sf-megamenu {
+  width: 12em;
+}
+.sf-menu li.sf-parent-children-2 ul.sf-megamenu {
+  width: 24em;
+}
+.sf-menu li.sf-parent-children-3 ul.sf-megamenu {
+  width: 36em;
+}
+.sf-menu li.sf-parent-children-4 ul.sf-megamenu {
+  width: 48em;
+}
+.sf-menu li.sf-parent-children-5 ul.sf-megamenu {
+  width: 60em;
+}
+.sf-menu li.sf-parent-children-6 ul.sf-megamenu {
+  width: 72em;
+}
+.sf-menu li.sf-parent-children-7 ul.sf-megamenu {
+  width: 84em;
+}
+.sf-menu li.sf-parent-children-8 ul.sf-megamenu {
+  width: 96em;
+}
+.sf-menu li.sf-parent-children-9 ul.sf-megamenu {
+  width: 108em;
+}
+.sf-menu li.sf-parent-children-10 ul.sf-megamenu {
+  width: 120em;
+}
