@@ -126,5 +126,57 @@ function rescue01_context_context_default_contexts() {
   $context->condition_mode = 0;
   $export['rescue01_pages'] = $context;
 
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
+  $context->name = 'rescue01_sitewide';
+  $context->description = '';
+  $context->tag = '';
+  $context->conditions = array(
+    'sitewide' => array(
+      'values' => array(
+        1 => 1,
+      ),
+    ),
+  );
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'delta_blocks-page-title' => array(
+          'module' => 'delta_blocks',
+          'delta' => 'page-title',
+          'region' => 'content',
+          'weight' => '-10',
+        ),
+        'superfish-1' => array(
+          'module' => 'superfish',
+          'delta' => '1',
+          'region' => 'menu',
+          'weight' => '-10',
+        ),
+        'views-whats_going_on-block' => array(
+          'module' => 'views',
+          'delta' => 'whats_going_on-block',
+          'region' => 'footer_first',
+          'weight' => '-10',
+        ),
+        'menu-menu-follow-us-on' => array(
+          'module' => 'menu',
+          'delta' => 'menu-follow-us-on',
+          'region' => 'footer_second',
+          'weight' => '-10',
+        ),
+        'contactinfo-hcard' => array(
+          'module' => 'contactinfo',
+          'delta' => 'hcard',
+          'region' => 'footer_third',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
+  $context->condition_mode = 0;
+  $export['rescue01_sitewide'] = $context;
+
   return $export;
 }
