@@ -43,6 +43,9 @@
 		}
 	
 	.region-footer-second{
+		
+		height: 150px;
+		
 		.block-menu-follow-us-on{
 			font-size: .750em;
 			}
@@ -50,12 +53,32 @@
 			color: $footer_text;
 			}
 		}
+		
 	.region-footer-third{
 		.block-contactinfo-hcard{
 			font-size: .750em;
 			}
 		.vcard{
 			color: $footer_text;
+			}
+		}
+		
+	.region-footer-fouth-inner{
+		
+		h2.block-title{
+			display: none;
+			}
+		.content{
+			background: url( "../images/copyright_bg.png" ) top center no-repeat;
+			text-align: center;
+			color: $footer_text;
+			font-size: .800em;
+			margin: 40px 0 20px 0;
+			padding: 25px 0 0 0;
+			
+			a{
+				color: $white;
+				}
 			}
 		}
 

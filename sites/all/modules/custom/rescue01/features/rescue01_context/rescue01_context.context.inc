@@ -77,6 +77,12 @@ function rescue01_context_context_default_contexts() {
           'region' => 'postscript_first',
           'weight' => '-10',
         ),
+        'block-1' => array(
+          'module' => 'block',
+          'delta' => '1',
+          'region' => 'footer_fouth',
+          'weight' => '-10',
+        ),
       ),
     ),
     'delta' => array(
@@ -160,16 +166,16 @@ function rescue01_context_context_default_contexts() {
           'region' => 'footer_first',
           'weight' => '-10',
         ),
-        'menu-menu-follow-us-on' => array(
-          'module' => 'menu',
-          'delta' => 'menu-follow-us-on',
-          'region' => 'footer_second',
-          'weight' => '-10',
-        ),
         'contactinfo-hcard' => array(
           'module' => 'contactinfo',
           'delta' => 'hcard',
           'region' => 'footer_third',
+          'weight' => '-10',
+        ),
+        'block-1' => array(
+          'module' => 'block',
+          'delta' => '1',
+          'region' => 'footer_fouth',
           'weight' => '-10',
         ),
       ),

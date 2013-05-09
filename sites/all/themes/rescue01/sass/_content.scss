@@ -32,14 +32,14 @@
 			
 			article{
 				.field-name-body{
-					min-height: 400px;
+					min-height: 600px;
 					}
 				}
 				
 			.block-system-main{
 
 				.field-name-body{
-					min-height: 400px;
+					min-height: 600px;
 					}
 					
 				.view-our-team{
@@ -117,6 +117,9 @@
 		font-family: 'Merriweather Sans', sans-serif;
 		font-size: .900em;
 
+		ul{
+			margin: 0 0 0 16px;
+		}
 		.views-field-title{
 			color: $title;
 			font-size: 1.7em;
@@ -163,10 +166,17 @@
 					margin: 15px 0 25px 0;
 					
 					.views-field-body{
-						height: 70px;
 						padding: 0 0 10px 0;
-						p{
-							font-size: .750em;
+
+						.field-content{
+							
+							height: 70px;
+							max-width:280px; 
+						
+							p{
+								font-size: .750em;
+								}
+							
 							}
 						}
 				}
@@ -183,4 +193,26 @@
 			}
 		}
 	}
+	
+article{
+	
+	h3{
+		font-family: 'Merriweather Sans', sans-serif;
+		font-size: 1.2em;
+		font-weight: bold;
+		color: $title;
+	}
+}
 
+.region-sidebar-second{
+	
+	.block-quick-links-block{
+		
+		h2.block-title{
+			font-family: 'Merriweather Sans', sans-serif;
+			font-size: 1em;
+			font-weight: bold;
+			padding: 15px 0 0 0;
+			}	
+		}
+	}

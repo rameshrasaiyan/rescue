@@ -86,21 +86,42 @@ body {
   color: #999999;
   font-weight: normal;
 }
-/* line 46, ../sass/_footer.scss */
+/* line 45, ../sass/_footer.scss */
+.section-footer .zone-footer .region-footer-second {
+  height: 150px;
+}
+/* line 49, ../sass/_footer.scss */
 .section-footer .zone-footer .region-footer-second .block-menu-follow-us-on {
   font-size: .750em;
 }
-/* line 49, ../sass/_footer.scss */
+/* line 52, ../sass/_footer.scss */
 .section-footer .zone-footer .region-footer-second .views-field-body {
   color: #999999;
 }
-/* line 54, ../sass/_footer.scss */
+/* line 58, ../sass/_footer.scss */
 .section-footer .zone-footer .region-footer-third .block-contactinfo-hcard {
   font-size: .750em;
 }
-/* line 57, ../sass/_footer.scss */
+/* line 61, ../sass/_footer.scss */
 .section-footer .zone-footer .region-footer-third .vcard {
   color: #999999;
+}
+/* line 68, ../sass/_footer.scss */
+.section-footer .zone-footer .region-footer-fouth-inner h2.block-title {
+  display: none;
+}
+/* line 71, ../sass/_footer.scss */
+.section-footer .zone-footer .region-footer-fouth-inner .content {
+  background: url("../images/copyright_bg.png") top center no-repeat;
+  text-align: center;
+  color: #999999;
+  font-size: .800em;
+  margin: 40px 0 20px 0;
+  padding: 25px 0 0 0;
+}
+/* line 79, ../sass/_footer.scss */
+.section-footer .zone-footer .region-footer-fouth-inner .content a {
+  color: white;
 }
 
 /* line 2, ../sass/_content.scss */
@@ -130,11 +151,11 @@ body {
 }
 /* line 34, ../sass/_content.scss */
 .section-content .zone-content .region-content-inner article .field-name-body {
-  min-height: 400px;
+  min-height: 600px;
 }
 /* line 41, ../sass/_content.scss */
 .section-content .zone-content .region-content-inner .block-system-main .field-name-body {
-  min-height: 400px;
+  min-height: 600px;
 }
 /* line 49, ../sass/_content.scss */
 .section-content .zone-content .region-content-inner .block-system-main .view-our-team .team ul li {
@@ -191,59 +212,67 @@ body {
   font-size: .900em;
 }
 /* line 120, ../sass/_content.scss */
+.section-home-content .region-postscript-first ul {
+  margin: 0 0 0 16px;
+}
+/* line 123, ../sass/_content.scss */
 .section-home-content .region-postscript-first .views-field-title {
   color: #d95100;
   font-size: 1.7em;
   border-bottom: 2px solid #d6d6d6;
   margin: 0 0 15px 0;
 }
-/* line 126, ../sass/_content.scss */
+/* line 129, ../sass/_content.scss */
 .section-home-content .region-postscript-first h2.block-title {
   display: none;
 }
-/* line 131, ../sass/_content.scss */
+/* line 134, ../sass/_content.scss */
 .section-home-content .region-postscript-second {
   font-size: .900em;
 }
-/* line 134, ../sass/_content.scss */
+/* line 137, ../sass/_content.scss */
 .section-home-content .region-postscript-second h2.block-title {
   border-bottom: 2px solid #d6d6d6;
   margin: 0 0 15px 0;
 }
 
-/* line 146, ../sass/_content.scss */
+/* line 149, ../sass/_content.scss */
 .section-featured-content .block-featured-articles-block {
   margin: 20px 0 0 0;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 149, ../sass/_content.scss */
+/* line 152, ../sass/_content.scss */
 .section-featured-content .block-featured-articles-block h2.block-title {
   border-bottom: 2px solid #d6d6d6;
 }
-/* line 153, ../sass/_content.scss */
+/* line 156, ../sass/_content.scss */
 .section-featured-content .block-featured-articles-block .views-field-title {
   font-size: 1.2em;
   color: #555555;
   padding: 0 0 5px 0;
 }
-/* line 159, ../sass/_content.scss */
+/* line 162, ../sass/_content.scss */
 .section-featured-content .block-featured-articles-block .view-featured-articles .views-row {
   float: left;
   width: 280px;
   padding: 0 30px 0 0;
   margin: 15px 0 25px 0;
 }
-/* line 165, ../sass/_content.scss */
+/* line 168, ../sass/_content.scss */
 .section-featured-content .block-featured-articles-block .view-featured-articles .views-row .views-field-body {
-  height: 70px;
   padding: 0 0 10px 0;
 }
-/* line 168, ../sass/_content.scss */
-.section-featured-content .block-featured-articles-block .view-featured-articles .views-row .views-field-body p {
+/* line 171, ../sass/_content.scss */
+.section-featured-content .block-featured-articles-block .view-featured-articles .views-row .views-field-body .field-content {
+  height: 70px;
+  max-width: 280px;
+}
+/* line 176, ../sass/_content.scss */
+.section-featured-content .block-featured-articles-block .view-featured-articles .views-row .views-field-body .field-content p {
   font-size: .750em;
 }
-/* line 175, ../sass/_content.scss */
+/* line 185, ../sass/_content.scss */
 .section-featured-content .block-featured-articles-block .views-field-view-node a {
   color: white;
   font-size: .700em;
@@ -255,6 +284,22 @@ body {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
+}
+
+/* line 199, ../sass/_content.scss */
+article h3 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #d95100;
+}
+
+/* line 211, ../sass/_content.scss */
+.region-sidebar-second .block-quick-links-block h2.block-title {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 15px 0 0 0;
 }
 
 /* line 3, ../sass/_dynamiclead.scss */
