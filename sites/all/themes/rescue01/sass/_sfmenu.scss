@@ -21,7 +21,7 @@ ul.menu li{
 	text-decoration: none;
 	color: $black;
 	font-weight: normal;
-	font-size: 0.775em;
+	font-size: 0.800em;
 	text-transform: uppercase;
 }
 .sf-menu a,
@@ -48,12 +48,12 @@ ul.menu li{
   background: url( '../images/primary-menu-seperator.gif' ) right 2px no-repeat;
   height: 22px;
   margin-right: 0 !important;
-  padding: 0.3em 0.8em;
+  padding: 0.5em 0.8em;
 }
 .sf-menu.sf-navbar {}
 .sf-menu li li {
   background: #fafafa;
-  top: -0.5em;
+  top: -0.2em;
 }
 .sf-menu li li li {
 //  background: #9AAEDB;
@@ -61,6 +61,7 @@ ul.menu li{
 .sf-menu li:hover,
 .sf-menu li.sfHover{
   @include background-image(linear-gradient(#b8b8b8, #fafafa));	
+  outline: 0;
 }
 .sf-menu a:focus,
 .sf-menu a:hover,
